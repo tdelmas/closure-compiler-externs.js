@@ -1,5 +1,5 @@
 # externs-URI.js
-URI.js externs files for Google closure compiler
+URI.js externs files for Google closure compiler (and autocomplete helper for IDEs)
 
 Work in progress, pull requests welcomed!
  - https://github.com/medialize/URI.js
