@@ -299,7 +299,7 @@ URI.prototype.removeQuery = function(arg1,arg2) {};
 
 /**
  * The method checks the existence and value of a given parameter within the query string.
- * @param {string|RegExp} arg1
+ * @param {string} arg1
  * @param {string|boolean|Array<string>|RegExp|(function():boolean)=} arg2
  * @return {!URI}
  * @see https://medialize.github.io/URI.js/docs.html#search-has
@@ -308,7 +308,7 @@ URI.prototype.hasSearch = function(arg1,arg2) {};
 
 /**
  * .hasQuery() is an alias of .hasSearch().
- * @param {string|RegExp} arg1
+ * @param {string} arg1
  * @param {string|boolean|Array<string>|RegExp|(function():boolean)=} arg2
  * @return {!URI}
  * @see https://medialize.github.io/URI.js/docs.html#search-has
