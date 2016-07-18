@@ -1664,6 +1664,14 @@ jQuery.queue = function(elem, queueName, arg3) {};
 jQuery.prototype.ready = function(handler) {};
 
 /**
+ * Handles errors thrown synchronously in functions wrapped in jQuery().
+ * @param {Error} handler
+ * @since 3.1
+ * @see https://api.jquery.com/jQuery.readyException/
+ */
+jQuery.readyException = function(error) {};
+
+/**
  * @param {string=} selector
  * @return {!jQuery}
  */
