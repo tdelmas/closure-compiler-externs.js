@@ -7,3 +7,7 @@ Work in progress, pull requests welcomed!
  
 
 Older versions made according to https://github.com/medialize/URI.js/releases
+
+# Licence
+
+Each file contains the applicable licence
